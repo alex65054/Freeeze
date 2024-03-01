@@ -1,0 +1,109 @@
+@import url('./global.css');
+
+/* Featured main image */
+
+.featured-image {
+    margin: auto;
+    max-width: 1126px;
+    height: 600px;
+    background-position: center;
+    background-image: url('./images/bg-home.jpg');
+}
+
+.featured-title {
+    background: url('./images/icons.png') 0 -128px;
+    height: 150px;
+    width: 156px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    float: right;
+    right: 225px;
+    top: 375px;
+    text-align: center;
+    font-family: 'Quicksand-Bold', sans-serif;
+}
+
+
+
+/* New product container */
+
+.new-product-container {
+    background-color: #eae7e8;
+}
+
+.new-product {
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-product h2 {
+    color: #e32a62;
+    margin: 15px 0 25px 0;
+    font-family: 'Magra-Bold', sans-serif;
+    font-size: 2rem;
+}
+
+.new-product h3 {
+    margin: 50px 0 0 0;
+}
+
+.new-product p {
+    font-size: .85rem;
+    line-height: 1.5rem;
+}
+
+.new-product {
+    color: #7a6666;
+}
+
+
+
+/* Action buttons */
+
+.action-buttons {
+    background-color: #c8c10d;
+    padding: 40px;
+}
+
+.action-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-buttons a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.action-buttons p {
+    margin: 0;
+    margin-top: 25px;
+}
+
+.action-icon {
+    margin: auto;
+    height: 40px;
+    width: 40px;
+    background-image: url('./images/icons.png');
+}
+
+.action-flavors {
+    background-position: -15px -283px;
+}
+
+.action-location {
+    background-position: -20px -327px;
+}
+
+.action-products {
+    background-position: -18px -376px;
+}
+
+.action-story {
+    width: 68px;
+    background-position: -10px -421px;
+}

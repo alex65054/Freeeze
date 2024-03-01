@@ -1,0 +1,100 @@
+@import url('./fonts.css');
+
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato-Regular', sans-serif;
+}
+
+.content {
+    max-width: 900px;
+    margin: auto;
+}
+
+
+/* Header area */
+
+header {
+    background-color: #eeebec;
+    padding: 40px;
+}
+
+header .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    gap: 75px;
+}
+
+nav a {
+    color: #7a6666;
+    text-decoration: none;
+}
+
+nav #activenav {
+    color: #ce4871;
+}
+
+
+
+/* Footer area */
+
+footer {
+    background-color: #cb3362;
+    padding: 60px;
+}
+
+footer>* {
+    margin: auto;
+}
+
+.share-container {
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    width: max-content;
+    gap: 30px;
+}
+
+.share-icon {
+    height: 30px;
+    width: 30px;
+    background-image: url('./images/icons.png');
+}
+
+.sprite-facebook {
+    background-position: 0 0;
+}
+
+.sprite-googleplus {
+    background-position: 0 -32px;
+}
+
+.sprite-pinterest {
+    background-position: 0 -64px;
+}
+
+.sprite-twitter {
+    background-position: 0 -96px;
+}
+
+footer p {
+    margin: auto;
+    width: max-content;
+    color: white;
+    font-size: .75rem;
+}
+
+
+/* Main content */
+main {
+    flex-grow: 1;
+    background-color: #f8f8f8;
+}

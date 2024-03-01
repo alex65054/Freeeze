@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('./fonts/Lato-Regular/lato-regular-webfont.eot'),
+    url('./fonts/Lato-Regular/lato-regular-webfont.woff') format('woff'),
+    url('./fonts/Lato-Regular/lato-regular-webfont.otf') format('opentype'),
+    url('./fonts/Lato-Regular/lato-regular-webfont.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('./fonts/Lato-Bold/lato-bold-webfont.eot'),
+    url('./fonts/Lato-Bold/lato-bold-webfont.woff') format('woff'),
+    url('./fonts/Lato-Bold/lato-bold-webfont.otf') format('opentype'),
+    url('./fonts/Lato-Bold/lato-bold-webfont.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'Magra-Bold';
+    src: url('./fonts/Magra-Bold/magra-bold-webfont.eot'),
+    url('./fonts/Magra-Bold/magra-bold-webfont.woff') format('woff'),
+    url('./fonts/Magra-Bold/magra-bold-webfont.otf') format('opentype'),
+    url('./fonts/Magra-Bold/magra-bold-webfont.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'Quicksand-Bold';
+    src: url('./fonts/Quicksand-Bold/quicksand-bold-webfont.eot'),
+    url('./fonts/Quicksand-Bold/quicksand-bold-webfont.woff') format('woff'),
+    url('./fonts/Quicksand-Bold/quicksand-bold-webfont.otf') format('opentype'),
+    url('./fonts/Quicksand-Bold/quicksand-bold-webfont.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('./fonts/Roboto-Regular/roboto-regular-webfont.eot'),
+    url('./fonts/Roboto-Regular/roboto-regular-webfont.woff') format('woff'),
+    url('./fonts/Roboto-Regular/roboto-regular-webfont.otf') format('opentype'),
+    url('./fonts/Roboto-Regular/roboto-regular-webfont.svg') format('svg');
+}
