@@ -1,0 +1,40 @@
+main {
+    background-color: #ebebed;
+}
+
+main>img {
+    margin: auto;
+    display: block;
+}
+
+main>section {
+    background-color: white;
+}
+
+.main-about-container {
+    display: flex;
+    gap: 25px;
+    padding: 40px;
+    font-size: .9rem;
+    line-height: 1.5rem;
+}
+
+.community-container {
+    box-sizing: border-box;
+    width: 550px;
+    background-color: #efedee;
+    padding: 40px;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.main-about-container p,.main-about-container a {
+    margin: 20px 0;
+    color: #7a6666;
+}
+
+.main-about-container h2 {
+    margin: 0;
+    font-weight: 300;
+    color: #e32a62;
+}

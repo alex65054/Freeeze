@@ -1,0 +1,53 @@
+/* Header shit */
+
+nav>div #about-dropdown {
+    display: block;
+    position: absolute;
+    margin-left: -75px;
+}
+
+/* First heading */
+
+main h1 {
+    color: white;
+    text-align: center;
+    background-color: #c8c10d;
+    margin: 0;
+    padding: 20px;
+    font-weight: 300;
+}
+
+/* Everything else, good luck */
+
+.products-container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.product-collection {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.product-collection>*:first-child {
+    text-align: left;
+    flex-grow: 1;
+}
+
+.product-collection p {
+    font-size: .9rem;
+    line-height: 1.5rem;
+    color: #7a6666;
+}
+
+.product-collection h2,.product-collection h3 {
+    color: #e32a62;
+    font-weight: 300;
+}
+
+.product-collection h2 {
+    font-family: 'Magra-Bold', sans-serif;
+    font-size: 1.75rem;
+}

@@ -1,5 +1,10 @@
 @import url('./global.css');
 
+
+main {
+    background-color: #f8f8f8;
+}
+
 /* Featured main image */
 
 .featured-image {

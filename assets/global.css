@@ -42,6 +42,24 @@ nav #activenav {
     color: #ce4871;
 }
 
+nav ul {
+    display: none;
+}
+
+nav>div:hover #about-dropdown {
+    display: block;
+    position: absolute;
+    margin-left: -75px;
+}
+
+#about-dropdown li {
+    display: block;
+    margin-top: 0;
+}
+
+#about-dropdown a {
+    padding: 20px;
+}
 
 
 /* Footer area */
@@ -96,5 +114,13 @@ footer p {
 /* Main content */
 main {
     flex-grow: 1;
-    background-color: #f8f8f8;
+}
+
+main h1 {
+    color: white;
+    text-align: center;
+    background-color: #c8c10d;
+    margin: 0;
+    padding: 20px;
+    font-weight: 300;
 }

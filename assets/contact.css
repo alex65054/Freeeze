@@ -1,0 +1,86 @@
+main {
+    background-color: #b5aaad;
+    line-height: 1.5rem;
+    font-size: .9rem;
+}
+
+.map-container {
+    height: 249px;
+    max-width: 1600px;
+    background-image: url('./images/map.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.address-container {
+    background-color: rgba(255,255,255,0.8);
+    padding: 20px 100px;
+    box-sizing: border-box;
+    gap: 40px;
+}
+
+.address-container img {
+    float: left;
+    margin: 0 25px;
+}
+
+.address-container>div {
+    margin: 10px;
+}
+
+h2 {
+    color: #e32a62;
+    font-weight: 300;
+    margin: 0;
+}
+
+p {
+    color: #7a6666;
+}
+
+.contact-container {
+    background-color: white;
+}
+
+.contact-boxes {
+    padding: 40px;
+    padding-bottom: 200px;
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+}
+
+.contact-boxes form {
+    flex-grow: 1;
+}
+
+.contact-boxes form input,.contact-boxes form textarea {
+    resize: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-family: 'Lato-Regular', sans-serif;
+    font-size: .9rem;
+    margin: 20px 0;
+}
+
+.contact-boxes form button {
+    background-color: white;
+    font-family: 'Lato-Regular', sans-serif;
+    box-shadow: none;
+    border: 2px solid #a5838e;
+    color: #a5838e;
+    font-weight: 700;
+    padding: 10px 50px;
+    font-size: 1rem;
+}
+
+.contact-encourager {
+    background-color: #efedee;
+    width: 30%;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
